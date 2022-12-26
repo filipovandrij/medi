@@ -1,0 +1,73 @@
+.full_container {
+  max-width: 1295px;
+  margin: 0 auto;
+}
+
+.top_nav_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+.top_nav_bar .places img {
+  margin-left: 15px;
+}
+.top_nav_bar div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 30px;
+  border-left: 1px solid #C4C4C4;
+}
+.top_nav_bar div button {
+  color: #fff;
+  padding: 13px 15px;
+  border: none;
+  background-color: #00868A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.top_nav_bar div button img {
+  margin-right: 10px;
+}
+.top_nav_bar div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header_content {
+  background: #4FBFA5;
+  height: 700px;
+}
+.header_content .nav_bar {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header_content .nav_bar button {
+  border: none;
+  padding: 10px 15px;
+}
+.header_content .nav_bar ul {
+  padding: 0 95px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_content .nav_bar ul li {
+  margin-right: 65px;
+}
+.header_content .nav_bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
