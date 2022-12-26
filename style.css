@@ -70,4 +70,64 @@
 .header_content .nav_bar ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.center_content {
+  margin-top: 30px;
+  display: flex;
+}
+.center_content .content_text {
+  padding-top: 133px;
+  position: relative;
+}
+.center_content .content_text h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+}
+.center_content .content_text p {
+  padding-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+.center_content .content_text button {
+  margin-top: 40px;
+  color: #fff;
+  padding: 13px 15px;
+  border: none;
+  background-color: #00868A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.center_content .next_arrows {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+}
+.center_content .next_arrows div {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 50px;
+}
+
+.bottom_content {
+  display: flex;
+}
+.bottom_content div {
+  text-align: center;
+  height: 80px;
+  width: 324px;
+}
+.bottom_content .long_box {
+  width: 648px;
 }/*# sourceMappingURL=style.css.map */
