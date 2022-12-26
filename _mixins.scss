@@ -5,10 +5,24 @@
 }
 
 @mixin primeryButton{
-    color: #fff;
+    color: $colorWhite;
             padding: 13px 15px;
             border: none;
-            background-color: #00868A;
+            background-color: $backgroundColorDark;
             @include flexBoxprimery();
             text-transform: uppercase;
+}
+
+@mixin miniButtonLight{
+    color:$colorWhite;
+        padding: 9px 15px 10px;
+        background: $backgroundColorLight;
+        border: none;
+}
+
+@mixin miniButtonDark{
+    color:$colorWhite;
+        padding: 9px 15px 10px;
+        background: $backgroundColorDark;
+        border: none;
 }
